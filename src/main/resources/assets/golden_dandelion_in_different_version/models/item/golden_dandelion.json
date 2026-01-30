@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "golden_dandelion_in_different_version:item/golden_dandelion"
+  }
+}
