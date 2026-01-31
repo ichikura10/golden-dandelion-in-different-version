@@ -1,4 +1,5 @@
 {
+  "render_type": "minecraft:cutout",
   "parent": "minecraft:block/cross",
   "textures": {
     "cross": "golden_dandelion_in_different_version:block/golden_dandelion"
