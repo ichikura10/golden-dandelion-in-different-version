@@ -2,6 +2,7 @@ package io.github.ichikura10.golden_dandelion_in_different_version;
 
 import com.mojang.logging.LogUtils;
 import io.github.ichikura10.golden_dandelion_in_different_version.block.ModBlocks;
+import io.github.ichikura10.golden_dandelion_in_different_version.creative.CreativeTab;
 import io.github.ichikura10.golden_dandelion_in_different_version.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +27,7 @@ public class Golden_dandelion_in_different_version {
 
         ModItems.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
+        CreativeTab.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
